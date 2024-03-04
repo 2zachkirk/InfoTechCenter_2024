@@ -19,33 +19,41 @@ def vehicleResponseSystem():
     if weatherAlert == "Snowing":
         print("\n National Weather Service has updated our alarm by 30 minutes because of the forecast of",weatherAlert,
               "weather conditions.")
+        sleep(1.5)
         print("VRS has been engaged only allowing you to drive 50mph.")
     elif weatherAlert == "Blizzard":
         print("\nNational Weather Service has updated our alarm by 45 minutes because of the forecast of",weatherAlert,
               "weather conditions.")
+        sleep(1.5)
         print("VRS has been engaged only allowing you to drive 40mph.")
     elif weatherAlert == "Raining":
         print("\nNational Weather Service has updated our alarm by 10 minutes because of the forecast of",weatherAlert,
               "weather conditions.")
+        sleep(1.5)
         print("VRS has been engaged only allowing you to drive 60mph.")
     elif weatherAlert =="Thunderstorm":
         print("\nNational Weather Service has updated our alarm by 35 minutes because of the forecast of", weatherAlert,
               "weather conditions.")
+        sleep(1.5)
         print("VRS had been engaged only allowing you to drive 55mph.")
     elif weatherAlert == "Foggy":
         print("\nNational Weather Service had updated our alarm by 10 minutes because of the forecast of",weatherAlert,
               "weather conditions.")
+        sleep(1.5)
         print("VRS has been engaged only allowing you to drive 60mph.")
     elif weatherAlert == "Windy":
         print("\nNational Weather Service had updated our alarm by 15 minutes because of the forecast of",weatherAlert,
               "weather conditions.")
+        sleep(1.5)
         print("VRS has been engaged only allowing you to drive 70mph.")
     elif weatherAlert =="Icy":
         print("\nNational Weather Service had updated our alarm by 60 minutes because of the forecast of", weatherAlert,
               "weather conditions.")
+        sleep(1.5)
         print("VRS has been engaged only allowing you to drive 30mph.")
     else:
         print("\nNational Weather Service forecasts", weatherAlert,"weather conditions.")
+        sleep(1.5)
         print("VRS has been disengaged! Drive at your own risk.")
 
 vehicleResponseSystem()
