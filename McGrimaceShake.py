@@ -17,7 +17,7 @@ weatherAlert = weather()
 
 def vehicleResponseSystem():
     if weatherAlert == "Snowing":
-        print("\n National Weather Service has updated our alarm by 30 minutes because of the forecast of",weatherAlert,
+        print("\nNational Weather Service has updated our alarm by 30 minutes because of the forecast of",weatherAlert,
               "weather conditions.")
         sleep(1.5)
         print("VRS has been engaged only allowing you to drive 50mph.")
